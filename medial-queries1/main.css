@@ -1,3 +1,15 @@
 body {
   background: blanchedalmond;
 }
+div{
+  border: 1px solid black;
+}
+.a{
+  background-color: red;
+}
+.b{
+  background-color: green;
+}
+.c{
+  background-color: blue;
+}
