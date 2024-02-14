@@ -46,37 +46,28 @@ body {
 
 /* all a,b,c,d,e heights same. f 2x height. a left alone. b has c,d,e below with f on right side of both */
 @media screen and (min-width:640px){
-  .container{
-    display:grid;
-    grid-template-columns: [c1] 25% [c2] 25% [c3] 25% [c4] 25% [end];
-    grid-template-rows: [r1] 25% [r2] 25% [r3] 25% [r4] 25% [last-line];
+  .bcdef{
+    display: flex;
   }
-
-  .a{
-    grid-column: c1 / span end;
-    grid-row: r1 span r2;
+  .bcde{
+    display: flex;
+    flex-direction: column;
   }
-  .b{
-    height: 5em;
-    grid-column: c1 / span c3;
-    grid-row: r2 / span r3;
+  .b {
+    width:45em;
+    height: 5em
   }
   .c{
-    grid-column: c1 / span c1;
-    grid-row: r3 / span r4;
+    width:15em;
   }
   .d{
-    grid-column: c2 / span c2;
-    grid-row: r4 / span r4;
+    width: 15em;
   }
   .e{
-    grid-column: c2 / span c2;
-    grid-row: r3 / span r3;
+    width: 15em;
   }
   .f{
-    grid-column: c2 / span c2;
-    grid-row: r3 / span r3; 
-    width: 5em;
-    height: 10em;
+    height:10em;
+    width:30em;
   }
 }
