@@ -1,3 +1,46 @@
 body {
   background: papayawhip;
+  margin: 0px;
+  padding: 20px;
+}
+.a{
+  background-color: red;
+  border: 1px solid black;
+  height: 5em;
+}
+.b{
+  background-color: gray;
+  border: 1px solid black;
+  height:15em;
+}
+.c{
+  background-color: yellow;
+  border: 1px solid black;
+  width: 30em;
+  height: 5em;
+}
+.d{
+  background-color: blueviolet;
+  border: 1px solid black;
+  width: 30em;
+  height: 5em;
+}
+.e{
+  background-color: white;
+  border: 1px solid black;
+  width:30em;
+  height: 5em;
+}
+.f{
+  background-color: green;
+  border: 1px solid black;
+  height: 5em;
+}
+.cde{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (min-width:640px){
+  
 }
